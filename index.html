@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="tees 4 the living is a collection of handmade shirts reflecting on what might get u killed in the 21st century.">
 
 	<title>tees 4 the living</title>
 
@@ -21,22 +22,30 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 
 	<!-- fonts -->
-	<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins|VT323" rel="stylesheet">
 </head>
 <body>
 
 <!-- HEADER -->
 	<div class="container">
 	<div class="row">
-		<div class="col-md-12 col-sm-12 col-xs-12">
+		<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
 			<img src="img/tees-4-living-thick-linear.svg" class="img-responsive header">
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-8 col-sm-8 col-xs-12">
+		<div class="col-md-8 col-md-offset-1 col-sm-8 col-xs-12">
 			<img src="img/now-available-thin-allv1.png" class="img-responsive">
 		</div>
 	</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 intro">
+			<!-- BUTTON TK  <button type="button" class="close" data-dismiss="intro" aria-label="Close"><span aria-hidden="true">&times;</span></button>-->
+			<p>TEES 4 THE LIVING is a collection of drawings reflecting on what might get u killed in the 21st century. i guess it’s a developing platform 2 express anxieties and fanfare in today’s world, whatever that might mean. if a message speaks to u, i’ll make you a tee. sign up below. click here 4 sizing & cost stuff.</p>
+		</div>
 	</div>
 
 <!-- HURRY QUEERS -->
@@ -47,8 +56,12 @@
 		</div>
 		<div class="col-md-6 col-sm-6 col-xs-12 description-col">
 			<table class="description-hurry">
-				<tr><td><img src="img/fashion-forward.png" class="img-responsive col-md-6 col-sm-8 col-xs-10 fashion-title"></td></tr>
-				<tr><td><a class="button fashion-btn" href="#hurry">waitlist</a></td></tr>
+				<tr><td><img src="img/fashion-forward.png" class="img-responsive col-md-7 col-md-offset-0 col-sm-8 col-sm-offset-0 col-xs-8 col-xs-offset-2 fashion-title"></td></tr>
+				<tr>
+					<td>
+						<button type="button" class="fashion-btn button" data-toggle="modal" data-target="#waitlistForm" data-tee="hurry">waitlist</button>
+					</td>
+				</tr>
 			</table>
 		</div>
 	</div>
@@ -68,7 +81,7 @@
 						<td><img src="img/why-i-still-read.png" class="img-responsive why-news-title"></td>
 					</tr>
 					<tr>
-						<td><button>waitlist</button></td>
+						<td><button type="button" class="button" data-toggle="modal" data-target="#waitlistForm" data-tee="dying">waitlist</button></td>
 					</tr>
 				</table>
 			</div>
@@ -77,7 +90,11 @@
 	<!-- for shirt titles at xs -->
 			<div class="row hidden-md hidden-sm visible-xs">
 			<div class="col-xs-12">
-				<h4>"the news" title @ xs</h4>
+			<table class="description-double">
+				<tr>
+					<td><img src="img/why-i-still-read.png" class="img-responsive why-news-title"></td>
+				</tr>
+			</table>
 			</div>
 			</div>
 	<!-- end for shirt titles at xs -->
@@ -94,7 +111,7 @@
 						<td>&nbsp;</td>
 					</tr>
 					<tr>
-						<td class="witness-empty"><button>waitlist</button></td>
+						<td class="witness-empty"><button type="button" class="button" data-toggle="modal" data-target="#waitlistForm" data-tee="witness">waitlist</button></td>
 					</tr>
 				</table>
 			</div>
@@ -107,29 +124,33 @@
 		<div class="col-md-6 col-sm-6 col-xs-12">
 			<div class="row">
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<img src="img/not-ready-2-die-lg.png" class="img-responsive center-block tee">
+				<img src="img/not-ready-2-die.png" class="img-responsive center-block tee">
 			</div>
 			</div>
 			<div class="row">
 			<div class="col-md-12 col-sm-12 col-xs-12">
 				<table class="description-double">
-					<tr class="hidden-xs"><td><h4>"protester pack" title</h4></td></tr>
-					<tr><td><button>waitlist</button></td></tr>
+					<tr class="hidden-xs"><td><img src="img/protester-pack.png" class="img-responsive protester-title col-md-7 col-sm-8"></td></tr>
+					<tr><td><button type="button" class="button" data-toggle="modal" data-target="#waitlistForm" data-tee="not-ready-die">waitlist</button></td></tr>
 				</table>
 			</div>
 			</div>
 		</div>
 	<!-- for shirt titles at xs -->
 			<div class="row hidden-md hidden-sm visible-xs">
-			<div class="col-xs-12">
-				<h4>"protester pack" title @ xs</h4>
+			<div class="col-xs-6 col-xs-offset-3">
+			<table class="description-double">
+				<tr>
+					<td><img src="img/protester-pack.png" class="img-responsive protester-title"></td>
+				</tr>
+			</table>
 			</div>
 			</div>
 	<!-- end for shirt titles at xs -->
 		<div class="col-md-6 col-sm-6 col-xs-12">
 			<div class="row">
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<img src="img/not-ready-2-grieve-lg.png" class="img-responsive center-block tee">
+				<img src="img/not-ready-2-grieve.png" class="img-responsive center-block tee">
 			</div>
 			</div>
 			<div class="row">
@@ -139,7 +160,7 @@
 						<td>&nbsp;</td>
 					</tr>
 					<tr>
-						<td><button>waitlist</button></td>
+						<td class="grieve-empty"><button type="button" class="button" data-toggle="modal" data-target="#waitlistForm" data-tee="not-ready-grieve">waitlist</button></td>
 					</tr>
 				</table>
 				
@@ -153,10 +174,10 @@
 		<div class="col-md-6 col-sm-6 hidden-xs description-furious">
 			<table>
 				<tr>
-					<td><h4>"furious" title</h4></td>
+					<td><img src="img/4-furious-fan.png" class="img-responsive furious-title col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2"></td>
 				</tr>
 				<tr>
-					<td><button>waitlist SM MED</button></td>
+					<td><button type="button" class="button furious-btn" data-toggle="modal" data-target="#waitlistForm" data-tee="vinny">waitlist</button></td>
 				</tr>
 			</table>
 		</div>
@@ -164,38 +185,64 @@
 			<img src="img/vinny-1.png" class="img-responsive center-block tee">
 		</div>
 		<div class="hidden-md hidden-sm visible-xs col-xs-12">
-			<button>waitlist</button>
-			<h4>xs button only</h4>
-		</div>
+			<table class="description-double">
+				<tr>
+					<td><img src="img/4-furious-fan.png" class="img-responsive furious-title col-xs-10 col-xs-offset-1"></td>
+				</tr>
+				<tr>
+					<td><button type="button" class="button" data-toggle="modal" data-target="#waitlistForm" data-tee="vinny">waitlist</button></td>
+				</tr>
+			</table>
+			</div>
 	</div>
 	</div>
 
 <!-- FOOTER -->
 	<div class="container">
-	<div class="row">
-		<div class="col-md-12 col-sm-12 col-xs-12">
-			<h1>footer</h1>
+	<div class="row footer">
+		<div class="col-lg-2 col-md-2 col-sm-2 col-sm-offset-3 col-xs-8 col-xs-offset-2">
+			<img src="img/lizz-size1.png" class="img-responsive center-block" />
 		</div>
+		<div class="col-lg-2 col-md-2 col-sm-2 col-sm-offset-0 col-xs-8 col-xs-offset-2">
+			<img src="img/details-size1.png" class="img-responsive center-block" />
+		</div>
+		<div class="col-lg-2 col-md-2 col-sm-2 col-sm-offset-0 col-xs-8 col-xs-offset-2">
+			<a href="http://lizzthabet.com"><p><img src="img/website-size1.png" class="img-responsive center-block" /></p></a>
+		</div>		
+	</div>
+	<!-- <div class="row">
+		<div class="col-lg-2 col-lg-offset-5 col-md-2 col-md-offset-5 col-sm-2 col-sm-offset-5 col-xs-8 col-xs-offset-2">
+			<img src="img/dies-alone.png" class="img-responsive center-block" />
+	</div> -->
 	</div>
 	</div>
 
-	<div id="hurry" class="overlay">
-	<div class="popup">
-		<a class="close" href="#">x</a>
-		<div class="content">
-			<form id="gform" action="https://script.google.com/macros/s/AKfycbyZVInNgUNMnszXPE51alVoXAzmNPwWC2sT6jHQGGaqCtsr_w/exec" method="post" autocomplete="on" target="_self">
-				<div>
-					<label for="name">your name:</label>
-					<input type="text" id="name" name="user_name" required/>
+	<div class="modal fade" id="waitlistForm" tabindex="-1" role="dialog">
+	<div class="modal-dialog" role="document">
+	<div class="modal-content">
+		<!-- <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<h4 class="modal-title">i want a tee pls</h4>
+		</div> -->
+		<div class="modal-body">
+			<!-- THANK YOU MESSAGE -->
+			<div style="display:none;" id="thankyou_message">
+				<p>thanks! you've been added to the waitlist for this tee.</p>
+			</div>
+		<form id="gform" action="https://script.google.com/macros/s/AKfycbyZVInNgUNMnszXPE51alVoXAzmNPwWC2sT6jHQGGaqCtsr_w/exec" method="post" autocomplete="on" target="_self">
+				<!-- FORM CONTENT -->
+        		<div class="form-group">
+					<label for="name">your name</label>
+					<input type="text" id="name" name="user_name" class="form-control" placeholder="hello hello" required/>
 				</div>
-				<div>
-					<label for="email">email:</label>
-        			<input type="email" id="email" name="email" required/>
+				<div class="form-group">
+					<label for="email">email</label>
+        			<input type="email" id="email" name="email" class="form-control" placeholder="mail@whatev.net"required/>
 					<p style="display:none;color:red;" id="email-invalid">please add a valid email</p>
     			</div>
-				<div>
-					<label for="tee-type">tee:
-						<select id="tee-type" name="user_tee" required>
+				<div class="form-group">
+					<label for="tee-type"><span style="padding-bottom:5px;">tee</span>
+						<select id="tee-type" name="user_tee" class="form-control" style="margin-top:5px;"required>
 							<option value="hurry">HURRY QUEERS</option>
 							<option value="dying">WE R DYING</option>
 							<option value="witness">WHO WILL WITNESS</option>
@@ -205,9 +252,9 @@
 						</select>
 					</label>
 				</div>
-				<div>
-					<fieldset>
-						<legend>size:</legend>
+				<div class="form-group">
+					<fieldset class="checkbox">
+						<legend>size</legend>
 						<label for="xsmall"><input type="checkbox" id="xsmall" name="user_size" value="xs" />XS</label>
 						<label for="small"><input type="checkbox" id="small" name="user_size" value="sm" />SM</label>
 						<label for="medium"><input type="checkbox" id="medium" name="user_size" value="md" />MD</label>
@@ -216,24 +263,61 @@
 						<label for="xxlarge"><input type="checkbox" id="xxlarge" name="user_size" value="xxl" />XXL</label>
 					</fieldset>
 				</div>
-				<div>
-					<label for="notes">notes:</label>
-					<p><textarea id="notes" name="notes" rows="2" cols="30" placeholder="have a sizing or quantity request? add it here!"></textarea></p>
+				<div class="sizing">
+					<p>tees are unisex triblend heather white w boxy fit.</p>
+				<table>
+					<tr>
+						<th>size</th>
+						<th>bust</th>
+						<th>length</th>
+					</tr>
+					<tr>
+						<td>xs (youth l)</td>
+						<td>34"</td>
+						<td>22"</td>
+					</tr>
+					<tr>
+						<td>sm (youth xl)</td>
+						<td>37"</td>
+						<td>23.5"</td>
+					</tr>
+					<tr>
+						<td>md</td>
+						<td>39"</td>
+						<td>28.5"</td>
+					</tr>
+					<tr>
+						<td>lg</td>
+						<td>42"</td>
+						<td>29.5"</td>
+					</tr>
+					<tr>
+						<td>xl</td>
+						<td>45"</td>
+						<td>30.5"</td>
+					</tr>
+				</table>
+			</div><!-- /. SIZING -->
+				<div class="form-group">
+					<label for="notes">notes</label>
+					<p><textarea id="notes" name="notes" rows="2" cols="30" placeholder="have a sizing or quantity request? add it here!" class="form-control"></textarea></p>
 				</div>
-				<button type="submit">submit</button>
-				<!-- Need to add TY -->
-			</form>
-			<div style="display:none;" id="thankyou_message">
-					<p>thanks! you've been added to the waitlist for this tee.</p>
-			</div>
-		</div>
-	</div>
-	</div>
+			<div class="modal-footer">
+				<button type="submit" class="button">submit</button>
+				<button type="button" class="button" data-dismiss="modal">Close</button>
+			</div> <!-- /.MODAL FOOTER -->
+		</form>
+		</div><!-- /.MODAL BODY -->
+	</div><!-- /.MODAL CONTENT -->
+	</div><!-- /.MODAL DIALOG -->
+	</div><!-- /.MODAL -->
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <!-- AJAX for form -->
-    <script type="text/javascript" src="js/form-submission-handler.js"></script> 
+	<script type="text/javascript" src="js/form-submission-handler.js"></script>
+    <!-- BUTTON CUSTOMIZATION -->
+    <script type="text/javascript" src="js/custom-buttons.js"></script>
 </body>
